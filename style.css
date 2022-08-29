@@ -219,13 +219,12 @@ nav {
 }
 
 .cards {
-
     display: flex;
     flex-direction: row;
-    padding: 2rem;
-    /* box-sizing: border-box;
-    border-radius: 2rem;
-    border-color: black; */
+    /* padding: 2rem; */
+    padding-left: 2rem;
+    padding-right: 3rem;
+    margin-top: 3%;
 }
 
 .card1 {
@@ -236,12 +235,13 @@ nav {
     padding-right: 0rem;
     padding-left: 2rem;
     padding-top: 6rem;
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
     box-sizing: border-box;
     border-radius: 2rem;
     border-color: black;
     margin-left: 13rem;
-    width: 35%;
+    width:17%;
+    height: 17%;
 }
 
 .card2 {
@@ -252,12 +252,13 @@ nav {
     padding-right: 0rem;
     padding-left: 2rem;
     padding-top: 6rem;
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
     box-sizing: border-box;
     border-radius: 2rem;
     border-color: black;
     margin-left: 2rem;
-    width: 35%;
+    width:17%;
+    height: 17%;
 }
 
 .card3 {
@@ -268,12 +269,13 @@ nav {
     padding-right: 0rem;
     padding-left: 2rem;
     padding-top: 6rem;
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
     box-sizing: border-box;
     border-radius: 2rem;
     border-color: black;
     margin-left: 2rem;
-    width: 35%;
+    width:17%;
+    height: 17%;
 }
 
 .card4 {
@@ -284,73 +286,168 @@ nav {
     padding-right: 0rem;
     padding-left: 2rem;
     padding-top: 6rem;
-    padding-bottom: 10rem;
+    padding-bottom: 7rem;
     box-sizing: border-box;
     border-radius: 2rem;
     border-color: black;
     margin-left: 2rem;
-    width: 35%;
+    width:17%;
+    height: 17%;
+}
+
+.card-wrap {
+    /* padding: 2%; */
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 2%;
+    width: 100%;
 }
 
 .card-bottom {
 
     display: flex;
+    flex-direction: row;
+  margin-top: 5%;
+}
+.card-bottom-sub{
+    display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    padding-left: 13%;
+}
+.card-bottom-head{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    width: 109%;
 }
 
+
+
+
 .img4 {
-    padding-left: 37%;
+    padding-left: 20%;
     /* padding-right: 22%; */
     padding-bottom: 0%;
 }
 
 .img5 {
-    padding-left: 37%;
+    padding-left: 20%;
     /* padding-right: 22%; */
     padding-bottom: 0%;
 }
 
 .img6 {
-    padding-left: 37%;
+    padding-left: 20%;
     /* padding-right: 22%; */
     padding-bottom: 0%;
 }
 
 .img7 {
-    padding-left: 37%;
+    padding-left: 20%;
     /* padding-right: 22%; */
     padding-bottom: 0%;
 }
+.img8{
 
-.card-sub1 {
+    display: flex;
+    padding-left: 20%;
+}
+
+/* .card-sub1 {
     width: 77%;
     padding-left: 14%;
 
     padding-top: 8%;
+} */
+.card-sub1 {
+    width: 97%;
+    padding-left: 0%;
+    padding-top: 9%;
 }
 
 .card-sub2 {
-    width: 65%;
-    padding-left: 14%;
-
-    padding-top: 8%;
-
+    width: 97%;
+    padding-left: 0%;
+    padding-top: 9%;
 }
 
 .card-sub3 {
-    width: 72%;
-    padding-left: 14%;
-
-    padding-top: 8%;
+    width: 97%;
+    padding-left: 0%;
+    padding-top: 9%;
 }
 
 .card-sub4 {
-    width: 77%;
-    padding-left: 14%;
-
-    padding-top: 8%;
+    width: 97%;
+    padding-left: 0%;
+    padding-top: 9%;
 }
-.card-sub-4{
-    padding-left: 2%;
+
+.but2 {
+    background-color: #0066FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  margin-top: 3%;
+    border-radius: 0.5rem;
+}
+
+
+
+
+.manage-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+
+}
+
+.manage-section1{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #0066FF; */
+    width: 50%;
+    padding-left: 13%;
+}
+.manage-section2{
+    /* padding-left: 68%; */
+    display: flex;
+    /* align-items: flex-end;*/
+    width: 58%;
+}
+
+.mng-para{
+    width: 76%;
+}
+.mng-head1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    width: 85%;
+
+}
+
+.subscribeInput {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid black;
+    width: 14%;
+
+}
+
+.subscribeInput > input {
+    border: none;
+    outline: none;
+    padding: .5rem;
+    width: 20rem;
+}
+
+.subscribeInput > img {
+    width: 1rem;
 }
