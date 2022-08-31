@@ -745,4 +745,43 @@ nav {
 .but-fa{
     padding-left: 18rem;
     background-color: white;
+    padding-bottom: 8rem;
+}
+
+.footer1{
+
+    background-color: #273343;
+    padding-left: 18rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 3rem;
+}
+.footersub{
+    display: flex;
+    flex-direction: column;
+}
+.footer1sub{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+}
+.footer1sub-images{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.but3 {
+    background-color: #0066FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: .5rem;
+    width: 19rem;
 }
