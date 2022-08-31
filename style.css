@@ -427,7 +427,15 @@ nav {
 }
 
 .mng-para {
-    width: 76%;
+    width: 86%;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    color: #7E8085;
+}
+.mng-head{
+    font-size: 1.3rem;
+    color: #7E8085;
+    font-weight: 800;
 }
 
 .mng-head1 {
@@ -441,11 +449,15 @@ nav {
 
 .subscribeInput {
     /* padding-bottom: .5rem; */
-    border-bottom: 1px solid black;
-    width: 16%;
-
+    border-bottom: 1px solid  #0066FF ;
+    width: 21%;
+    padding-top: 2rem;
     display: flex;
     flex-direction: row;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    padding-bottom: 0.5rem;
 
 }
 
@@ -457,7 +469,7 @@ nav {
 }
 
 .subscribeInput>img {
-    width: 0.7rem;
+    width: 0.8rem;
     padding-left: 0.5rem;
 }
 
