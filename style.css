@@ -631,7 +631,7 @@ nav {
     padding-top: 9%;
 }
 
-.card-bot1{
+.card-bot1 {
     display: flex;
     flex-direction: row;
     padding-top: 8rem;
@@ -639,7 +639,7 @@ nav {
     font-weight: 800;
 }
 
-.card-bot3{
+.card-bot3 {
     display: flex;
     flex-direction: row;
     padding-top: 12rem;
@@ -647,7 +647,7 @@ nav {
     font-weight: 800;
 }
 
-.card-bot2{
+.card-bot2 {
     display: flex;
     flex-direction: row;
     padding-top: 6rem;
@@ -673,19 +673,22 @@ nav {
     flex-direction: row;
     padding-left: 18em;
     padding-top: 7em;
+    padding-bottom: 8rem;
 }
 
-.ob{
- padding-left: 6em;
+.ob {
+    padding-left: 6em;
 
 }
-.faq{
+
+.faq {
     background-color: white;
     padding-left: 18rem;
     padding-top: 8rem;
     padding-bottom: 6rem;
 }
-.faq-head{
+
+.faq-head {
     font-size: 2.5rem;
     font-weight: 900;
     padding-bottom: 1rem;
@@ -704,8 +707,30 @@ nav {
     position: relative;
 }
 
-.Input1 img{
+.Input1 img {
     height: .5rem;
     position: absolute;
     right: 0px;
+}
+
+.but-1 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #0066FF;
+    border: 2px solid #0066FF;
+    width: 19rem;
+}
+
+.but-fa{
+    padding-left: 18rem;
+    background-color: white;
 }
