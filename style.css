@@ -755,22 +755,50 @@ nav {
     padding-right: 4rem;
     display: flex;
     flex-direction: row;
-    color: white;
+    color: grey;
     padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.footerr{
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: row;
 }
 .footersub{
     display: flex;
     flex-direction: column;
+}
+.footersubs{
+    padding-top: 2rem;
 }
 .footer1sub{
     display: flex;
     flex-direction: column;
     padding-left: 10rem;
 }
-.footer1sub-images{
-
+.footer1subb{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    padding-top: 4rem;
+}
+.footersubhead {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: white;
+}
+.footer1sub-2{
     display: flex;
     flex-direction: row;
+}
+.footer1sub-images{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.footer1sub-images img{
+    padding-right: 2rem;
+    
 }
 
 .but3 {
