@@ -813,3 +813,21 @@ nav {
     border-radius: .5rem;
     width: 19rem;
 }
+
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: grey;
+    padding-left: 17rem;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer2sub{
+
+    position: absolute;
+    right: 185px;
+}
