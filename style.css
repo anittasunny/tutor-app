@@ -887,4 +887,9 @@ nav {
     width: 1px;
     height: 66px;
 }
+.card-up-1 {
+    font-size: 16px;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+}
 }
